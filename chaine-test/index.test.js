@@ -4,7 +4,7 @@ import { JSDOM } from 'jsdom'
 import fs from 'fs'
 import path from 'path'
 import "html-validate/jest"
-import {retireEspaces, nettoieEspaces, compteMots, inverseMots, inverseLettres} from "./chaine";
+import {retireEspaces, nettoieEspaces, compteMots, inverseMots, inverseLettres} from "../chaine";
 
 
 const html = fs.readFileSync(path.resolve('', './index.html'), 'utf8'),
