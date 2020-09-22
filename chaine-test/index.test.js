@@ -4,13 +4,21 @@ import { JSDOM } from 'jsdom'
 import fs from 'fs'
 import path from 'path'
 import "html-validate/jest"
-import '../extend-expect-21F'
+//import '../extend-expect-21F'
+import './extend-expect-21F'
+import {retireEspaces, nettoieEspaces, compteMots, inverseMots, inverseLettres} from "./chaine";
+
 
 const html = fs.readFileSync(path.resolve('', './index.html'), 'utf8'),
 		dom = new JSDOM( html ),
 		container = dom.window.document.body;
 
 describe('index.html', () => {
+    test('outputs the correct string', () => {
+        expect(retireEspaces("test")).toBe("test");
+    });
+
+/*
 	test('All HTML is valid', () => {
 		expect( html ).toHTMLValidate( {
 			extends: ["html-validate:standard"],
@@ -28,5 +36,7 @@ describe('index.html', () => {
 
 	test('Uses the code example from the template', () => {
 		expect( container.querySelector( 'code' ) ).not.toBeNull();
-	} );
+    } );
+    
+    */
 })

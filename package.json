@@ -1,24 +1,41 @@
 {
-  "name": "cm523-unit-tests",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+  "_args": [
+    [
+      "github:JonathanMartel/21F-test-unit",
+      "E:\\OneDrive - Collège de Maisonneuve\\CMaisonneuve\\582-21F\\test_github_classroom\\21F-exercices-template"
+    ]
+  ],
+  "_development": true,
+  "_from": "github:JonathanMartel/21F-test-unit",
+  "_id": "21F-test-unit@github:JonathanMartel/21F-test-unit#4ddce15d427382ed4aa1fef9c1114436ee59d306",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/21F-test-unit",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://ashleykolodziej@github.com/ProfessorKolodziej/cm523-fall2020.git"
+    "raw": "github:JonathanMartel/21F-test-unit",
+    "rawSpec": "github:JonathanMartel/21F-test-unit",
+    "saveSpec": "github:JonathanMartel/21F-test-unit",
+    "fetchSpec": null,
+    "gitCommittish": null
   },
-  "author": "Ashley Kolodziej",
-  "license": "ISC",
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:JonathanMartel/21F-test-unit#4ddce15d427382ed4aa1fef9c1114436ee59d306",
+  "_spec": "github:JonathanMartel/21F-test-unit",
+  "_where": "E:\\OneDrive - Collège de Maisonneuve\\CMaisonneuve\\582-21F\\test_github_classroom\\21F-exercices-template",
+  "author": {
+    "name": "Ashley Kolodziej"
+  },
   "bugs": {
-    "url": "https://github.com/ProfessorKolodziej/cm523-fall2020/issues"
+    "url": "https://github.com/JonathanMartel/21F-test-unit/issues"
   },
-  "homepage": "https://github.com/ProfessorKolodziej/cm523-fall2020#readme",
   "dependencies": {
     "regenerator-runtime": "^0.13.5"
   },
+  "description": "basé sur ProfessorKolodziej/cm523-unit-tests",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
@@ -28,5 +45,17 @@
     "html-validate": "^3.0.0",
     "jest": "^25.3.0",
     "serve": "^11.3.0"
-  }
+  },
+  "homepage": "https://github.com/JonathanMartel/21F-test-unit.git",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "21F-test-unit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://jonathanmartel@github.com/JonathanMartel/21F-test-unit.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
 }
