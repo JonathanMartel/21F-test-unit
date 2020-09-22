@@ -7,24 +7,26 @@
   ],
   "_development": true,
   "_from": "github:JonathanMartel/21F-test-unit",
-  "_id": "21F-test-unit@github:JonathanMartel/21F-test-unit#4ddce15d427382ed4aa1fef9c1114436ee59d306",
+  "_id": "21F-test-unit@0.0.1",
   "_inBundle": false,
   "_integrity": "",
   "_location": "/21F-test-unit",
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "github:JonathanMartel/21F-test-unit",
+    "raw": "21F-test-unit@github:JonathanMartel/21F-test-unit",
+    "name": "21F-test-unit",
+    "escapedName": "21F-test-unit",
     "rawSpec": "github:JonathanMartel/21F-test-unit",
     "saveSpec": "github:JonathanMartel/21F-test-unit",
     "fetchSpec": null,
     "gitCommittish": null
   },
   "_requiredBy": [
-    "/"
+    "#DEV:/"
   ],
-  "_resolved": "github:JonathanMartel/21F-test-unit#4ddce15d427382ed4aa1fef9c1114436ee59d306",
-  "_spec": "github:JonathanMartel/21F-test-unit",
+  "_resolved": "github:JonathanMartel/21F-test-unit#3a19e0b0ae853e9d98c077b62837d6b22638a1fa",
+  "_spec": "21F-test-unit@github:JonathanMartel/21F-test-unit",
   "_where": "E:\\OneDrive - Collège de Maisonneuve\\CMaisonneuve\\582-21F\\test_github_classroom\\21F-exercices-template",
   "author": {
     "name": "Ashley Kolodziej"
@@ -32,9 +34,11 @@
   "bugs": {
     "url": "https://github.com/JonathanMartel/21F-test-unit/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "regenerator-runtime": "^0.13.5"
   },
+  "deprecated": false,
   "description": "basé sur ProfessorKolodziej/cm523-unit-tests",
   "devDependencies": {
     "@babel/core": "^7.9.0",
