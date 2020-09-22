@@ -4,8 +4,6 @@ import { JSDOM } from 'jsdom'
 import fs from 'fs'
 import path from 'path'
 import "html-validate/jest"
-//import '../extend-expect-21F'
-import './extend-expect-21F'
 import {retireEspaces, nettoieEspaces, compteMots, inverseMots, inverseLettres} from "./chaine";
 
 
